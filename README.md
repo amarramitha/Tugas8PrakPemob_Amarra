@@ -10,11 +10,13 @@ Method `getMahasiswa()` adalah fungsi yang dijalankan saat komponen dimuat perta
 
 ![Create](tambah.png)
 
+![ViewAfterCreate](viewtambah.png)
+
 Method `tambahMahasiswa()` digunakan untuk menambahkan data mahasiswa baru ke dalam sistem. Prosesnya dimulai dengan pengecekan apakah field `nama` dan `jurusan` sudah diisi; jika tidak, data tidak akan dikirim. Setelah validasi ini, dibuat objek `data` yang berisi `nama` dan `jurusan` yang diambil dari input pengguna. Objek ini kemudian dikirim sebagai permintaan POST ke endpoint `tambah.php` melalui `ApiService`. Jika penambahan data berhasil, beberapa tindakan dilakukan: form di-reset agar kosong kembali, data mahasiswa yang baru ditampilkan dimuat ulang, modal (dialog) ditutup, dan pesan sukses dicetak di konsol untuk memberi tahu bahwa proses berhasil. Namun, jika ada kesalahan dalam pengiriman atau jika field masih ada yang kosong, pesan error akan ditampilkan di konsol, memungkinkan pengguna atau pengembang untuk mengetahui ada kendala pada proses penambahan data.
 
 3. **Edit Data**
 
-![Edit](Edit.png)
+![Edit](edit.png)
 
 ![ViewAfterEdit](viewafteredit.png)
 
