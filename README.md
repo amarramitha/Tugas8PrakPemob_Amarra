@@ -16,7 +16,7 @@ Method `tambahMahasiswa()` digunakan untuk menambahkan data mahasiswa baru ke da
 
 3. **Edit Data**
 
-![Edit](edit.png)
+![Edit](editpage.png)
 
 ![ViewAfterEdit](viewafteredit.png)
 
